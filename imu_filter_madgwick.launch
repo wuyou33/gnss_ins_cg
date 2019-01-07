@@ -2,9 +2,11 @@
 
 <launch>
 
+    <arg name="camera" default="camera"/>
+
     <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter" output="screen">
 
-        <remap from="/imu/data_raw"         to="/stereo/imu/data_raw"/>
+        <remap from="/imu/data_raw"         to="$(arg camera)/imu/data_raw"/>
 
         <param name="use_mag"               type="bool"   value="false"/>
         <param name="publish_tf"            type="bool"   value="true"/>
