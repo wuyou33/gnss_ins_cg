@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter" output="screen">
+
+        <remap from="/imu/data_raw"         to="/stereo/imu/data_raw"/>
+
+        <param name="use_mag"               type="bool"   value="false"/>
+        <param name="publish_tf"            type="bool"   value="true"/>
+        <param name="publish_debug_topics"  type="bool"   value="true"/>
+
+    </node>
+
+</launch>
