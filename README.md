@@ -6,6 +6,10 @@
 
 * **IMU Pose Calculation**
   - [ccny-ros-pkg/imu_tools](https://github.com/ccny-ros-pkg/imu_tools): ROS tools for IMU devices
+    ```bash
+    rosrun imu_filter_madgwick imu_filter_node \
+           _use_mag:=false /imu/data_raw:=/camera/imu/data_raw
+    ```
 
 * **IMU Performance Analysis**
   - [IMU-TK](https://bitbucket.org/alberto_pretto/imu_tk): Inertial Measurement Unit ToolKit
