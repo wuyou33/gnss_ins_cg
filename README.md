@@ -16,3 +16,12 @@
   - [gaowenliang/imu_utils](https://github.com/gaowenliang/imu_utils): A ROS package tool to analyze the IMU performance
   - [rpng/kalibr_allan](https://github.com/rpng/kalibr_allan): IMU Allan standard deviation charts for use with Kalibr and inertial kalman filters
   - [AllanTools](https://pypi.org/project/AllanTools/): A python library for calculating Allan deviation and related time & frequency statistics.
+
+
+  ## Books
+
+  * ***Global Navigation Satellite Systems, Inertial Navigation, and Integration, 3rd Edition*** ([link](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=111844700X&bcsId=7868))
+
+<div align=center>
+  <img src="images/gnss.jpg">
+</div>
