@@ -10,6 +10,7 @@
     rosrun imu_filter_madgwick imu_filter_node \
            _use_mag:=false /imu/data_raw:=/camera/imu/data_raw
     ```
+* [higerra/ridi_imu](https://github.com/higerra/ridi_imu): Robust IMU Double Integration
 
 * **IMU Performance Analysis**
   - [IMU-TK](https://bitbucket.org/alberto_pretto/imu_tk): Inertial Measurement Unit ToolKit
