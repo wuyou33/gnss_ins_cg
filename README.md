@@ -4,6 +4,10 @@
 
 ## IMU Tools
 
+* **IMU Data Sim**
+
+  - [HeYijia/vio_data_simulation](https://github.com/HeYijia/vio_data_simulation): Generate imu data and feature in camera frame
+
 * **IMU Pose Calculation**
   - [ccny-ros-pkg/imu_tools](https://github.com/ccny-ros-pkg/imu_tools): ROS tools for IMU devices
     ```bash
@@ -19,7 +23,7 @@
   - [AllanTools](https://pypi.org/project/AllanTools/): A python library for calculating Allan deviation and related time & frequency statistics.
 
 
-  ## Books
+## Books
 
   * ***Global Navigation Satellite Systems, Inertial Navigation, and Integration, 3rd Edition*** ([link](http://bcs.wiley.com/he-bcs/Books?action=index&itemId=111844700X&bcsId=7868))
 
