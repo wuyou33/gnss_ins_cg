@@ -4,7 +4,7 @@
 
 [TOC]
 
-# IMU Data
+# IMU
 
 ## IMU Noise Model
 
@@ -18,11 +18,15 @@ Accelerometer "white noise" | `acc_n` | <img src="https://latex.codecogs.com/svg
 Gyroscope "bias Instability" | `gyr_w` | <img src="https://latex.codecogs.com/svg.latex?{%5Csigma_b_g}"> | <img src="https://latex.codecogs.com/svg.latex?{%5Cfrac%7Brad%7D%7Bs^2%7D%5Cfrac%7B1%7D%7B%5Csqrt%7BHz%7D%7D}" />
 Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.com/svg.latex?{%5Csigma_b_a}"> | <img src="https://latex.codecogs.com/svg.latex?{%5Cfrac%7Bm%7D%7Bs^3%7D%5Cfrac%7B1%7D%7B%5Csqrt%7BHz%7D%7D}"/>
 
-Ref: [IMU Noise Model (kalibr)](https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model)
+**Ref**:   
 
-## How To Get
+* [IMU Noise Model (kalibr)](https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model)
 
-### the Datasheet of the IMU
+* [IMU Noise Model（游）](https://www.cnblogs.com/youzx/p/6291327.html)
+
+### How To Get
+
+#### the Datasheet of the IMU
 
 * White Noise Terms
   - **Rate Noise Density**
@@ -31,7 +35,7 @@ Ref: [IMU Noise Model (kalibr)](https://github.com/ethz-asl/kalibr/wiki/IMU-Nois
 * Bias Terms
   - **In-Run Bias Stability**
 
-### the Allan standard deviation (AD)
+#### the Allan standard deviation (AD)
 
 * "white noise" is at tau=1 (slope -1/2 in a log-log AD plot)
 * "random walk" is at tau=3 (slope +1/2 in a log-log AD plot)
@@ -40,7 +44,7 @@ Ref: [IMU Noise Model (kalibr)](https://github.com/ethz-asl/kalibr/wiki/IMU-Nois
   <img src="https://cloud.githubusercontent.com/assets/1916839/3589506/8f57d0ee-0c4e-11e4-9ab4-33821c040490.png"/>
 </div>
 
-## Samples
+### Samples
 
 * MPU6000 / MPU6050
 
@@ -59,7 +63,11 @@ Ref: [IMU Noise Model (kalibr)](https://github.com/ethz-asl/kalibr/wiki/IMU-Nois
   acc_w: 1.2148497781522122e-03
   ```
 
-# IMU Tools
+## IMU State Estimation
+
+* [从零开始的 IMU 状态模型推导](https://fzheng.me/2016/11/20/imu_model_eq/)
+
+## INS Tools
 
 * **IMU Data Simulation**
 
@@ -80,6 +88,15 @@ Ref: [IMU Noise Model (kalibr)](https://github.com/ethz-asl/kalibr/wiki/IMU-Nois
   - [XinLiGH/GyroAllan](https://github.com/XinLiGH/GyroAllan): 陀螺仪随机误差的 Allan 方差分析
   - [AllanTools](https://pypi.org/project/AllanTools/): A python library for calculating Allan deviation and related time & frequency statistics.
 
+* [introlab/OpenIMU](https://github.com/introlab/OpenIMU): Open Source Analytics & Visualisation Software for Inertial Measurement Units
+
+# Inertial Navigation
+
+* [Open Source Inertial Navigation Toolkit](http://www.instk.org/)
+* [Inertial Navigation System (INS) Toolbox (matlab)](https://www.mathworks.com/products/connections/product_detail/inertial-navigation-system-toolbox.html)
+* [Aided Inertial Navigation System (AINS) Toolbox for MatLab Software](https://mms.geomatics.ucalgary.ca/ains)
+* [NaveGo](https://github.com/rodralez/NaveGo): an open-source MATLAB/GNU Octave toolbox for processing integrated navigation systems and performing inertial sensors analysis
+* [Aceinna Navigation Studio](https://developers.aceinna.com/): Simulate, Deploy, and Analyze Navigation Systems
 
 # Books
 
