@@ -63,14 +63,14 @@ Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.co
   acc_w: 1.2148497781522122e-03
   ```
  
- * MYNT-EYE-S1030 IMU
+* MYNT-EYE-S1030 IMU
  
- ```yaml
- gyr_n: 0.00888232829671 
- gyr_w: 0.000379565782927
- acc_n: 0.0268014618074 
- acc_w: 0.00262960861593
- ```
+  ```yaml
+  gyr_n: 0.00888232829671 
+  gyr_w: 0.000379565782927
+  acc_n: 0.0268014618074 
+  acc_w: 0.00262960861593
+  ```
 
 ## IMU State Estimation
 
