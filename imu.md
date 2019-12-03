@@ -6,6 +6,9 @@
 
 # IMU Errors
 
+* 确定性误差：可以事先标定确定,包括：bias, scale，Nonorthogonality/Misalignment Errors
+* 随机性误差：通常假设噪声服从高斯分布，包括：高斯白噪声，bias随机游走
+
 <div align=center>
   <img src="images/error_acc.png">
 </div>
