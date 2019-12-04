@@ -1,20 +1,19 @@
-# INS Lab
+# GNSS + INS
+
+* GNSS: Global Navigation Satellite System
+* INS: Inertial Navigation System
 
 ----
 
-[TOC]
+# GNSS in inertial navigation
 
-# IMU
+Inertial navigation systems can take advantage of additional constellation to use more satellites and further improve signal robustness in harsh environments such as urban canyons, forests, mountains.
 
-* imu.md file
+* [Aceinna/gnss-ins-sim](https://github.com/Aceinna/gnss-ins-sim): GNSS-INS-SIM is an GNSS/INS simulation project, which generates reference trajectories, IMU sensor output, GPS output, odometer output and magnetometer output.
 
-# Inertial Navigation
+# Geomagnetics
 
-* [Open Source Inertial Navigation Toolkit](http://www.instk.org/)
-* [Inertial Navigation System (INS) Toolbox (matlab)](https://www.mathworks.com/products/connections/product_detail/inertial-navigation-system-toolbox.html)
-* [Aided Inertial Navigation System (AINS) Toolbox for MatLab Software](https://mms.geomatics.ucalgary.ca/ains)
-* [NaveGo](https://github.com/rodralez/NaveGo): an open-source MATLAB/GNU Octave toolbox for processing integrated navigation systems and performing inertial sensors analysis
-* [Aceinna Navigation Studio](https://developers.aceinna.com/): Simulate, Deploy, and Analyze Navigation Systems
+* [magnetic-declination](http://www.magnetic-declination.com/): find the magnetic declination at your location
 
 # Books
 

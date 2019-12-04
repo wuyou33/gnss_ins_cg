@@ -10,11 +10,11 @@
 * 随机性误差：通常假设噪声服从高斯分布，包括：高斯白噪声，bias随机游走
 
 <div align=center>
-  <img src="images/error_acc.png">
+  <img src="../images/error_acc.png">
 </div>
 <br>
 <div align=center>
-  <img src="images/error_gyro.png">
+  <img src="../images/error_gyro.png">
 </div>
 
 ## IMU Noise Model
@@ -94,11 +94,8 @@ Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.co
   - [HeYijia/vio_data_simulation](https://github.com/HeYijia/vio_data_simulation): Generate imu data and feature in camera frame
 
 * **IMU Pose Calculation**
-  - [ccny-ros-pkg/imu_tools](https://github.com/ccny-ros-pkg/imu_tools): ROS tools for IMU devices
-    ```bash
-    rosrun imu_filter_madgwick imu_filter_node \
-           _use_mag:=false /imu/data_raw:=/camera/imu/data_raw
-    ```
+  - [cggos/imu_tools_cg](https://github.com/cggos/imu_tools_cg.git): ROS tools for IMU devices
+  
 * [higerra/ridi_imu](https://github.com/higerra/ridi_imu): Robust IMU Double Integration
 
 * **IMU Performance Analysis**
