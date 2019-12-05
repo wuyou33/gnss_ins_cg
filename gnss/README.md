@@ -2,7 +2,6 @@
 
 * [An Introduction to GNSS](https://www.novatel.com/an-introduction-to-gnss)
 * [Navipedia](https://gssc.esa.int/navipedia/index.php/Main_Page)
-* [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Main_Page)
 
 GNSS Systems:
 
