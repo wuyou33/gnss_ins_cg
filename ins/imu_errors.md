@@ -1,10 +1,10 @@
-# IMU
+# IMU Errors and Rectification
+
+* [IMU误差模型与校准](https://www.cnblogs.com/buxiaoyi/p/7541974.html)
 
 -----
 
 [TOC]
-
-# IMU Errors
 
 * 确定性误差：可以事先标定确定,包括：bias, scale，Nonorthogonality/Misalignment Errors
 * 随机性误差：通常假设噪声服从高斯分布，包括：高斯白噪声，bias随机游走
@@ -83,26 +83,9 @@ Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.co
   acc_w: 0.00262960861593
   ```
 
-# IMU State Estimation
-
-* [从零开始的 IMU 状态模型推导](https://fzheng.me/2016/11/20/imu_model_eq/)
-
-# IMU Tools
-
-* **IMU Data Simulation**
-
-  - [HeYijia/vio_data_simulation](https://github.com/HeYijia/vio_data_simulation): Generate imu data and feature in camera frame
-
-* **IMU Pose Calculation**
-  - [cggos/imu_tools_cg](https://github.com/cggos/imu_tools_cg.git): ROS tools for IMU devices
-  
-* [higerra/ridi_imu](https://github.com/higerra/ridi_imu): Robust IMU Double Integration
-
-* **IMU Performance Analysis**
+## Performance Analysis Software
   - [IMU-TK](https://bitbucket.org/alberto_pretto/imu_tk): Inertial Measurement Unit ToolKit
   - [gaowenliang/imu_utils](https://github.com/gaowenliang/imu_utils): A ROS package tool to analyze the IMU performance
   - [rpng/kalibr_allan](https://github.com/rpng/kalibr_allan): IMU Allan standard deviation charts for use with Kalibr and inertial kalman filters
   - [XinLiGH/GyroAllan](https://github.com/XinLiGH/GyroAllan): 陀螺仪随机误差的 Allan 方差分析
   - [AllanTools](https://pypi.org/project/AllanTools/): A python library for calculating Allan deviation and related time & frequency statistics.
-
-* [introlab/OpenIMU](https://github.com/introlab/OpenIMU): Open Source Analytics & Visualisation Software for Inertial Measurement Units
