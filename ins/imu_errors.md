@@ -22,12 +22,15 @@
 * a high frequency additive **White Noise**
 * a slower varying sensor **Bias**
 
+**continuous-time** model:
+
 Parameter | YAML element | Symbol | Units
 --- | --- | --- | ---
 Gyroscope "white noise" | `gyr_n` | <img src="https://latex.codecogs.com/svg.latex?{%5Csigma_g}"> | <img src="https://latex.codecogs.com/svg.latex?{%5Cfrac%7Brad%7D%7Bs%7D%5Cfrac%7B1%7D%7B%5Csqrt%7BHz%7D%7D}">
 Accelerometer "white noise" | `acc_n` | <img src="https://latex.codecogs.com/svg.latex?{%5Csigma_a}"> | <img src="https://latex.codecogs.com/svg.latex?{%5Cfrac%7Bm%7D%7Bs^2%7D%5Cfrac%7B1%7D%7B%5Csqrt%7BHz%7D%7D}">
 Gyroscope "bias Instability" | `gyr_w` | <img src="https://latex.codecogs.com/svg.latex?{%5Csigma_b_g}"> | <img src="https://latex.codecogs.com/svg.latex?{%5Cfrac%7Brad%7D%7Bs^2%7D%5Cfrac%7B1%7D%7B%5Csqrt%7BHz%7D%7D}" />
 Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.com/svg.latex?{%5Csigma_b_a}"> | <img src="https://latex.codecogs.com/svg.latex?{%5Cfrac%7Bm%7D%7Bs^3%7D%5Cfrac%7B1%7D%7B%5Csqrt%7BHz%7D%7D}"/>
+IMU sampling rate | `update_rate` | <img src="https://latex.codecogs.com/svg.latex?{%5Cfrac%7B1%7D%7B%5CDelta%20t%7D}"> | <img src="https://latex.codecogs.com/svg.latex?{Hz}">
 
 **Ref**:   
 
@@ -55,7 +58,7 @@ Accelerometer "bias Instability" | `acc_w` | <img src="https://latex.codecogs.co
   <img src="https://cloud.githubusercontent.com/assets/1916839/3589506/8f57d0ee-0c4e-11e4-9ab4-33821c040490.png"/>
 </div>
 
-### Samples
+### Noise Samples (Continuous-time)
 
 * MPU6000 / MPU6050
 
